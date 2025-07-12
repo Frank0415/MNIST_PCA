@@ -9,7 +9,7 @@ This project has its environment managed by [uv](https://docs.astral.sh/uv/). Ru
 
 If not you can refer to [uv installation guide](https://docs.astral.sh/uv/#installation).
 
-### Installation
+### Running the Project
 
 1. Clone the repository:
 ```bash
