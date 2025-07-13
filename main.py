@@ -12,7 +12,7 @@ from nn_model import MNISTNN
 
 CNN_FLAG = False
 
-def run_experiment(max_iterations, pca_components=16):
+def run_experiment(max_iterations, pca_components=196):
     print(f"\n=== Training for {max_iterations} iterations ===")
     transform = transforms.Compose(
         [transforms.ToTensor(), transforms.Normalize((0,), (1,))]
@@ -70,7 +70,7 @@ def run_experiment(max_iterations, pca_components=16):
     if CNN_FLAG:
         print("--- Training CNN on original data ---")
         cnn = SimpleCNN()
-        optimizer_cnn = optim.Adam(cnn.parameters(), lr=0.0001)
+        optimizer_cnn = optim.Adam(cnn.parameters(), lr=0.001)
         cnn_time = train_model(
             cnn, trainloader, criterion, optimizer_cnn, max_iter=max_iterations
         )
@@ -151,7 +151,7 @@ def run_experiment(max_iterations, pca_components=16):
         pca_trainloader_cnn = make_pca_loader_cnn(X_train_pca, y_train_np, side)
         pca_testloader_cnn = make_pca_loader_cnn(X_test_pca, y_test_np, side)
         cnn_pca = SimpleCNN(input_size=side)
-        optimizer_cnn_pca = optim.Adam(cnn_pca.parameters(), lr=0.0001)
+        optimizer_cnn_pca = optim.Adam(cnn_pca.parameters(), lr=0.001)
         cnn_pca_time = train_model(
             cnn_pca,
             pca_trainloader_cnn,
