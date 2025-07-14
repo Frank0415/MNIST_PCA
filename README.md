@@ -7,7 +7,7 @@ Linear algebra class project: PCA(2D) Classification implementation for MNIST.
 
 This project has its environment managed by [uv](https://docs.astral.sh/uv/). Run `uv --version` to check if you have it installed.
 
-If not you can refer to [uv installation guide](https://docs.astral.sh/uv/#installation).
+If not you can refer to [uv installation guide](https://docs.astral.sh/uv/getting-started/installation/).
 
 ### Running the Project
 
