@@ -12,6 +12,7 @@ Linear algebra class project: PCA(2D) Classification implementation for MNIST.#
   - [Installation](#installation)
     - [Prerequisites](#prerequisites)
     - [Running the Project](#running-the-project)
+  - [Contribution](#contribution)
 
 ## Introduction
 
@@ -67,3 +68,9 @@ cd MNIST_PCA
 ```bash
 uv run main.py
 ```
+
+## Contribution
+
+This project uses [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) for version control.
+
+Special thanks to @YTohkaYang for great advice in implementation of NN and CNN as well as helping testing and explaining the project's algorithm and results.
