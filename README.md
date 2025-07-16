@@ -1,6 +1,6 @@
 # MNIST_PCA
 
-Linear algebra class project: PCA(2D) Classification implementation for MNIST.#
+Linear algebra class project: PCA(2D) Classification implementation for MNIST.
 
 ## Contents
 
