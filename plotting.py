@@ -33,7 +33,7 @@ def save_first_9_images_grid(trainset):
             y = row * (img_size + bar_size)
             grid_img.paste(img, (x, y))
 
-    print(number)
+    # print(number)
     grid_img = grid_img.convert("RGB")
     os.makedirs("output", exist_ok=True)
     grid_img.save("output/mnist_3x3_grid.jpg", "JPEG")
@@ -60,4 +60,4 @@ def save_first_9_images_grid_pca(X_recon, filename="output/mnist_3x3_grid_pca.jp
     grid_img = grid_img.convert("RGB")
     os.makedirs("output", exist_ok=True)
     grid_img.save(filename, "JPEG")
-    print(f"Saved {filename}")
+    # print(f"Saved {filename}")

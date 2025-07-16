@@ -1,0 +1,17 @@
+Fitting PCA model...
+alpha=0.9789356309535712
+u_shape:(28, 14)
+alpha=0.9682100369473016
+u_shape:(28, 14)
+uu_shape:(28, 14)
+Fitting PCA model...
+alpha=0.9789356309535712
+u_shape:(28, 14)
+alpha=0.9682100369473016
+u_shape:(28, 14)
+uu_shape:(28, 14)
+
+Summary Table:
+Iters | NN Orig Acc | NN Orig Time | CNN Orig Acc | CNN Orig Time | NN PCA Acc | NN PCA Time | CNN PCA Acc | CNN PCA Time | NN 2D PCA Acc | NN 2D PCA Time | CNN 2D PCA Acc | CNN 2D PCA Time
+ 1000 | 0.9327 | 5.15 |     0.9817 | 43.34559154510498 | 0.9491 | 1.50 |     0.9188 | 7.815732479095459 |     0.9305 | 0.290860652923584 |     0.9466 | 6.16849684715271
+ 3000 | 0.9663 | 17.67 |     0.9892 | 177.39259028434753 | 0.9710 | 6.08 |     0.9468 | 31.36731791496277 |     0.9622 | 0.9112274646759033 |     0.9659 | 29.624248504638672
